@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_3(thread와멀티쓰레�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_4(race_condition)", "19_4(race_condition)\19_4(race_condition).vcxproj", "{40E98034-4809-41F4-A241-676543EB7A3A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19_1(람다,function)", "19_1(람다,function)\19_1(람다,function).vcxproj", "{008F9C0C-51E0-4B9C-8085-1C0E506B7341}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{40E98034-4809-41F4-A241-676543EB7A3A}.Release|x64.Build.0 = Release|x64
 		{40E98034-4809-41F4-A241-676543EB7A3A}.Release|x86.ActiveCfg = Release|Win32
 		{40E98034-4809-41F4-A241-676543EB7A3A}.Release|x86.Build.0 = Release|Win32
+		{008F9C0C-51E0-4B9C-8085-1C0E506B7341}.Debug|x64.ActiveCfg = Debug|x64
+		{008F9C0C-51E0-4B9C-8085-1C0E506B7341}.Debug|x64.Build.0 = Debug|x64
+		{008F9C0C-51E0-4B9C-8085-1C0E506B7341}.Debug|x86.ActiveCfg = Debug|Win32
+		{008F9C0C-51E0-4B9C-8085-1C0E506B7341}.Debug|x86.Build.0 = Debug|Win32
+		{008F9C0C-51E0-4B9C-8085-1C0E506B7341}.Release|x64.ActiveCfg = Release|x64
+		{008F9C0C-51E0-4B9C-8085-1C0E506B7341}.Release|x64.Build.0 = Release|x64
+		{008F9C0C-51E0-4B9C-8085-1C0E506B7341}.Release|x86.ActiveCfg = Release|Win32
+		{008F9C0C-51E0-4B9C-8085-1C0E506B7341}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
