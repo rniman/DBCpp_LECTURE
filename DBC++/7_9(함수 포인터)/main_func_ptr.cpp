@@ -28,8 +28,8 @@ bool isOdd(const int& number)
 	else return false;
 }
 
-//함수 포인터 이용
-void printNum(const array<int, 10>& my_arr, check_fcn_t check_fcn = isOdd)
+//함수 포인터 이용 , 파라미터로 기능을 받을 수 있다
+void printNum(const array<int, 10>& my_arr, check_fcn_t check_fcn = isEven)
 {
 
 	for (auto elelment : my_arr)
@@ -46,7 +46,7 @@ void printNum(const array<int, 10>& my_arr, bool print_even)
 	for (auto elelment : my_arr)
 	{
 		if (print_even && elelment % 2 == 0 ) cout << elelment;
-		if (!print_even && elelment % 2 == 1)cout << elelment;
+		if (!print_even && elelment % 2 == 1) cout << elelment;
 	}
 	cout << endl;
 }
@@ -59,11 +59,14 @@ int main()
 
 	int(*fcn_ptr)() = func;
 
+	cout << fcn_ptr() << endl;
 	cout << fcn_ptr << endl;
 
 	fcn_ptr = goo;
 
+	cout << fcn_ptr() << endl;
 	cout << fcn_ptr << endl;
+	cout << endl;
 
 	std::array<int, 10> my_arr = { 0,1,2,3,4,5,6,7,8,9 };
 
